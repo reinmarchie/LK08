@@ -1,0 +1,9 @@
+001|Budi|Malang
+002|Siti|Blitar
+004|Phainon|Aedes Alysiae
+005|Mydei|Castum Kremnos
+006|Anaxagoras|Groove Epiphany
+007|Gallagher|Penacony
+008|Sunday|Penacony
+009|Ashveil|Universe
+010|Blade|Xianzhou

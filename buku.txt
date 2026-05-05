@@ -1,0 +1,5 @@
+B01|Laskar Pelangi|Novel
+B02|Fisika Dasar|Pelajaran
+B03|The Galaxy Ranger|Fiksi
+B04|How to take care of your Dromas|Non-Fiksi
+B04|The Destruction|Sci-Fi
