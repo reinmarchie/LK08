@@ -36,17 +36,17 @@ Title: "Login"
 
 Size: 300 x 200
 
-Layout: null -> posisi komponen diatur secara manual dengan setBounds().
+Layout: null → posisi komponen diatur secara manual dengan setBounds().
 
 #### Komponen
 1. Label & Input
-JLabel "NIP" -> Label untuk field NIP
-JTextField nip -> Input untuk memasukkan NIP pegawai
-JLabel "Nama" -> Label untuk field nama
-JTextField nama -> Input untuk memasukkan nama pegawai
+JLabel "NIP" → Label untuk field NIP
+JTextField nip → Input untuk memasukkan NIP pegawai
+JLabel "Nama" → Label untuk field nama
+JTextField nama → Input untuk memasukkan nama pegawai
 
 2. Button
-JButton login -> Mengirim data login
+JButton login → Mengirim data login
 
 Fungsi: Mengirim data login
 Event: ActionListener → memanggil `Admin.login(nip.getText(), nama.getText())`
@@ -72,18 +72,18 @@ Title: "Menu"
 
 Size: 300 x 300
 
-Layout: null -> posisi komponen diatur secara manual dengan setBounds().
+Layout: null → posisi komponen diatur secara manual dengan setBounds().
 
 #### Komponen
 1. Tombol Menu
-JButton s (Siswa) -> Membuka `SiswaGUI`
-Event: ActionListener -> new SiswaGUI()
-JButton b (Buku) -> Membuka `BukuGUI`
-Event: ActionListener -> new BukuGUI()
-JButton t (Transaksi) -> Membuka `TransaksiGUI`
-Event: ActionListener -> new TransaksiGUI()
-JButton p (Pegawai) -> Membuka `PegawaiGUI`
-Event: ActionListener -> new PegawaiGUI()
+JButton s (Siswa) → Membuka `SiswaGUI`
+Event: ActionListener → new SiswaGUI()
+JButton b (Buku) → Membuka `BukuGUI`
+Event: ActionListener → new BukuGUI()
+JButton t (Transaksi) → Membuka `TransaksiGUI`
+Event: ActionListener → new TransaksiGUI()
+JButton p (Pegawai) → Membuka `PegawaiGUI`
+Event: ActionListener → new PegawaiGUI()
 
 #### Method
 1. Menu()
@@ -100,18 +100,18 @@ Title: "Data Buku"
 
 Size: 450 x 300
 
-Layout: null -> posisi komponen diatur secara manual dengan setBounds().
+Layout: null → posisi komponen diatur secara manual dengan setBounds().
 
 #### Komponen
 1. Tabel Data
-JTable table -> Menampilkan data buku
-DefaultTableModel model -> Menyimpan dan mengelola data tabel
-JScrollPane sp -> Membuat tabel dapat di-scroll jika data banyak
+JTable table → Menampilkan data buku
+DefaultTableModel model → Menyimpan dan mengelola data tabel
+JScrollPane sp → Membuat tabel dapat di-scroll jika data banyak
 
 2. Button
-JButton tambah -> Menambahkan data buku baru
+JButton tambah → Menambahkan data buku baru
 Fungsi: Menambahkan data buku baru
-Event: ActionListener -> membuka dialog input untuk Kode, Judul, dan Jenis
+Event: ActionListener → membuka dialog input untuk Kode, Judul, dan Jenis
 
 #### Method
 1. void loadData()
